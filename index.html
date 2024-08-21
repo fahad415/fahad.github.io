@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Fahad</title>
+  <link rel="stylesheet" href="./style.css">
+  
+
+</head>
+<body>
+
+<!-- partial:index.partial.html -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fahad</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/audiojs/2.8.2/audio.min.js"></script>
+	  
+
+    <link rel="stylesheet" href="./style.css">
+	
+    <style>
+        .music-button {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kissMyAss">
+        <button class="button-start">Click me</button>
+    </div>
+
+<div id="clock-container">
+    <div id="clock" style="color: white; font-size: 3em;"></div>
+</div>
+
+<audio class="music" loop>
+      <source src="">
+</audio>
+
+<video id="background-video-1" src="elfero1.mp4"></video>
+<video id="background-video-2" src="elfero2.mp4"></video>
+<video id="background-video-3" src="elfero3.mp4"></video>
+<video id="background-video-4" src="elfero4.mp4"></video>
+
+
+
+
+
+<div id="top-bar" class="centered">
+    <div id="palestine-flag">
+        <img src="state-of-palestine-694_256.gif" alt="علم فلسطين">
+    </div>
+    <div id="palestine-text">
+
+    </div>
+</div>
+
+
+
+	
+<button id="playButton" class="music-button" onclick="handleIconClick()">
+    <i id="playIcon" class="fa-solid fa-volume-high fa-2xl" style="color: #ff1717;" style="font-size: 50px;"></i>
+</button>
+
+<button class="bottom-right-button" data-link="https://discord.gg/ana">
+    سيرفر ديسكورد
+    <i class="fa-solid fa-comment" style="margin-left: 7px;"></i>
+</button>
+
+    <main>
+        <button data-link="https://open.spotify.com/user/3123kknf5tcp32yat5xmcwsbnfpq">
+            <i class="fab fa-spotify"></i>
+        </button>
+
+        <button data-link="https://www.roblox.com/users/3630418706/profile">
+            <img src="https://img.icons8.com/plasticine/100/roblox-new.png" alt="لوجو roblox"
+                style="width: 30px; height: 30px;">
+        </button>
+
+        <button data-link="https://www.tiktok.com/@6soba7">
+            <i class="fa-brands fa-tiktok"></i>
+        </button>
+
+        <button data-link="https://www.instagram.com/fhdbdalnby7/">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </button>
+
+        <button data-link="https://discord.com/users/467573103568879636">
+            <i class="fab fa-discord"></i>
+        </button>
+    </main>
+
+    <div class="cursor cursor--large"></div>
+    <div class="cursor cursor--small"></div>
+
+    <audio id="music"
+        src="LOL"></audio>
+  
+    <script>
+        var playIcon = document.getElementById("playIcon");
+        var isPlaying = false;
+
+        function handleIconClick() {
+            if (isPlaying) {
+                playIcon.src = "https://cdn.discordapp.com/attachments/1175829596109819914/1275155839103271013/icons8-sound-50.png?ex=66c4dceb&is=66c38b6b&hm=6e5a012b0e142e401a668f41cd73d62ffef1a5d49d4a42da74ed096c00850267&";
+                isPlaying = false;
+            } else {
+                playIcon.src = "https://cdn.discordapp.com/attachments/1175829596109819914/1275155839451271261/icons8-mute-50.png?ex=66c4dceb&is=66c38b6b&hm=20d79d2ca4f8c49aa68e2538d68b3d3721c84619c35c3fb9761d188749caab75&";
+                isPlaying = true;
+            }
+        }
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js'></script>
+    <script src='https://unpkg.com/ionicons@5.0.0/dist/ionicons.js'></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
